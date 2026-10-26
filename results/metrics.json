@@ -1,0 +1,28 @@
+{
+  "best_model": "linear_svm",
+  "validation": {
+    "naive_bayes": {
+      "accuracy": 0.8836,
+      "f1": 0.8825,
+      "roc_auc": 0.9541,
+      "train_seconds": 11.0
+    },
+    "logistic_regression": {
+      "accuracy": 0.906,
+      "f1": 0.9066,
+      "roc_auc": 0.9691,
+      "train_seconds": 12.0
+    },
+    "linear_svm": {
+      "accuracy": 0.9064,
+      "f1": 0.9063,
+      "roc_auc": 0.9695,
+      "train_seconds": 12.4
+    }
+  },
+  "test": {
+    "accuracy": 0.9062,
+    "f1": 0.9068,
+    "roc_auc": 0.9666
+  }
+}

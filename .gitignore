@@ -1,0 +1,8 @@
+.venv/
+data/
+models/
+*.part
+__pycache__/
+*.egg-info/
+.pytest_cache/
+results_train.log
